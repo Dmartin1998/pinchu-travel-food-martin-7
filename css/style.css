@@ -5,6 +5,7 @@ header {
 
 main {
     background-color: rgb(231, 188, 237);
+    padding: 1em;
 }
 
 /*MAIN INDEX*/
@@ -27,6 +28,7 @@ main {
 .card {
     width: 25em;
     height: 100%;
+    transition: .9s;
 }
 
 .card a {
@@ -43,7 +45,33 @@ main {
 
 /*MAIN US*/
 
+.us-card:hover {
+    scale: 1.1;
+}
+
 /*MAIN CONTACT*/
+
+form {
+    padding: 2em;
+}
+
+/*MAIN PAGS*/
+
+.contenedor-art h2, h3 {
+    text-align: center;
+    font-size: 4em;
+    padding: .5em;
+}
+
+.contenedor-art p {
+    padding: .3em;
+}
+
+.contenedor-art img {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
 
 footer {
     background-color: #d8d1fb;
