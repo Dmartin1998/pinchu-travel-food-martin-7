@@ -1,0 +1,42 @@
+@mixin cards-hover ($hovercolor) {
+    &:hover {
+        background-color: $hovercolor;
+    }
+}
+
+
+main {
+    background-color: $bgmain;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+
+    .card-group {
+        padding: 1em;
+        gap: 1em;
+        .card {
+            transition: .5s;
+            text-decoration: none;
+            h5 {
+                font-style: italic;
+            }
+            &:hover {
+                scale: 1.04;
+            }
+
+            @include cards-hover($hovercolor);
+        }
+    }
+
+    .card-deck {
+        @extend .card-group;
+        scale: 0.85;
+        background-color: map-get($map: $map, $key: "primario");
+    }
+
+    form {
+        padding: 2em;
+    }
+
+}

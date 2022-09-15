@@ -1,40 +1,32 @@
 header {
   background-color: #343a40;
-  font-family: 'Bebas Neue', cursive; }
+  font-family: 'Bebas Neue', cursive;
+  overflow: hidden; }
 
 main {
-  background-color: #e7bced; }
-  main .carousel {
-    width: 100%; }
-  main .carousel-item {
-    width: 100%;
-    height: 25rem; }
-  main .container-cards {
-    gap: 1em;
-    justify-content: center;
-    padding: 2em; }
-  main .card {
-    width: 25em;
-    height: 100%;
-    align-items: center;
-    justify-content: center; }
-    main .card a {
-      background-color: #28a745;
-      border-color: #28a745;
-      transition: .5s; }
-      main .card a:hover {
-        scale: 1.5;
-        border-color: #503258;
-        background-color: #503258; }
-  main .us-card {
-    transition: .5s; }
-    main .us-card:hover {
-      scale: 1.1;
-      box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.54);
-      -webkit-box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.54);
-      -moz-box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.54); }
+  background-color: #e7bced;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden; }
+  main .card-group, main .card-deck {
+    padding: 1em;
+    gap: 1em; }
+    main .card-group .card, main .card-deck .card {
+      transition: .5s;
+      text-decoration: none; }
+      main .card-group .card h5, main .card-deck .card h5 {
+        font-style: italic; }
+      main .card-group .card:hover, main .card-deck .card:hover {
+        scale: 1.04; }
+      main .card-group .card:hover, main .card-deck .card:hover {
+        background-color: #aedebd; }
+  main .card-deck {
+    scale: 0.85;
+    background-color: #dcade2; }
   main form {
     padding: 2em; }
 
 footer {
-  background-color: #d8d1fb; }
+  background-color: #e7e2ff;
+  overflow: hidden; }
