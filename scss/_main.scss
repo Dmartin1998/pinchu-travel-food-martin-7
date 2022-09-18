@@ -12,6 +12,17 @@ main {
     width: 100%;
     overflow: hidden;
 
+    .blockquote {
+        text-decoration: overline;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2em;
+    }
+
+    .banner-princ {
+        padding: 2em;
+        width: 100%;
+    }
+
     .card-group {
         padding: 1em;
         gap: 1em;
@@ -27,6 +38,10 @@ main {
 
             @include cards-hover($hovercolor);
         }
+    }
+
+    .galery-index {
+        margin: 3em
     }
 
     .card-deck {

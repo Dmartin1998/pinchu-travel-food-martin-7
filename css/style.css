@@ -4,11 +4,18 @@ header {
   overflow: hidden; }
 
 main {
-  background-color: #e7bced;
+  background-color: #ddf2f0;
   align-items: center;
   justify-content: center;
   width: 100%;
   overflow: hidden; }
+  main .blockquote {
+    text-decoration: overline;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em; }
+  main .banner-princ {
+    padding: 2em;
+    width: 100%; }
   main .card-group, main .card-deck {
     padding: 1em;
     gap: 1em; }
@@ -20,7 +27,9 @@ main {
       main .card-group .card:hover, main .card-deck .card:hover {
         scale: 1.04; }
       main .card-group .card:hover, main .card-deck .card:hover {
-        background-color: #aedebd; }
+        background-color: #f0e2f1; }
+  main .galery-index {
+    margin: 3em; }
   main .card-deck {
     scale: 0.85;
     background-color: #dcade2; }
