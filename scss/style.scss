@@ -2,3 +2,29 @@
 @import "_header.scss";
 @import "_main.scss";
 @import "_footer.scss";
+
+
+    /*GRID ARTICULOS*/
+
+    .main-grid-articulos {
+        .col {
+            display: grid;
+            grid-template-areas:
+            "tit"
+            "text1"
+            "img1"
+            "text2"
+            "img2";
+            grid-gap: 1rem;
+        }
+
+        .pag-titulo {grid-area: tit; font-family: 'Bebas Neue', cursive; font-size: 4em; padding: .3em;}
+
+        .pag-text-1 {grid-area: text1; font-size: 1.2em;}
+
+        .pag-img-1 {grid-area: img1; margin: 0; width: 100%; padding: 1em;}
+
+        .pag-text-2 {grid-area: text2; font-size: 1.2em;}
+
+        .pag-img-2 {grid-area: img2; margin: 0; width: 100%; padding: 1em;}
+    }

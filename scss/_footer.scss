@@ -1,4 +1,15 @@
 footer {
     background-color: $footerbgcolor;
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    img {
+        transition: .5s;
+        &:hover {
+            scale: 1.5;
+            rotate: 5deg;
+        }
+    }
 }

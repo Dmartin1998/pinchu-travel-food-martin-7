@@ -45,79 +45,87 @@
         </nav>
     </header>
     <main>
-        <form class="was-validated">
-            <div class="mb-3">
-                <label for="validationTextarea" class="form-label">Contacto</label>
-                <textarea class="form-control" id="validationTextarea" placeholder="Escriba aquí su consulta" required></textarea>
-                <div class="invalid-feedback">
-                    Por favor escriba su comentario para enviar el formulario.
-                </div>
-            </div>
-            <div class="form-check mb-3">
-                <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
-                <label class="form-check-label" for="validationFormCheck1">Acepto las condiciones de privacidad</label>
-                <div class="invalid-feedback">Necesitamos tu concenso para que nos envíes tus datos!</div>
-            </div>
-            <div class="form-check">
-                <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
-                <label class="form-check-label" for="validationFormCheck2">Esto es un reclamo</label>
-            </div>
-            <div class="form-check mb-3">
-                <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
-                <label class="form-check-label" for="validationFormCheck3">Me quiero contactar por otros motivos</label>
-                <div class="invalid-feedback">Por favor indicar el motivo de contacto</div>
-            </div>
-            <div class="mb-3">
-                <select class="form-select" required aria-label="select example">
-                    <option value="">Que urgencia tiene tu consulta?</option>
-                    <option value="1">Poca</option>
-                    <option value="2">Media</option>
-                    <option value="3">Mucha</option>
-                </select>
-                <div class="invalid-feedback">Por favor seleccionar una opción</div>
-            </div>
-            <div class="mb-3">
-                <input type="file" class="form-control" aria-label="file example" required>
-                <div class="invalid-feedback">Por favor completar este campo</div>
-            </div>
-                <div class="mb-3">
-                <button class="btn btn-primary" type="submit" disabled style="background-color: #198754; border: #198754">Enviar</button>
-            </div>
-        </form>
-    </main>
-    <footer class="page-footer font-small mdb-color darken-3 pt-4">
-
-        <!-- Footer Elements -->
-        <div class="container">
-
-            <!--Grid row-->
-            <div class="row d-flex justify-content-center">
-
-                <!--Grid column-->
-                <div class="col-md-6">
-
-                    <!-- Video -->
-                    <div class="embed-responsive embed-responsive-16by9 mb-4">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fBdb1U455yY"
-                            allowfullscreen></iframe>
+        <div class="row row-lg-12">
+            <div class="col col-md-6 container">
+                <form class="was-validated">
+                    <div class="mb-3">
+                        <label for="validationTextarea" class="form-label">Contacto</label>
+                        <textarea class="form-control" id="validationTextarea" placeholder="Escriba aquí su consulta" required></textarea>
+                        <div class="invalid-feedback">
+                            Por favor escriba su comentario para enviar el formulario.
+                        </div>
                     </div>
-
-                </div>
-                <!--Grid column-->
-
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+                        <label class="form-check-label" for="validationFormCheck1">Acepto las condiciones de privacidad</label>
+                        <div class="invalid-feedback">Necesitamos tu concenso para que nos envíes tus datos!</div>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+                        <label class="form-check-label" for="validationFormCheck2">Esto es un reclamo</label>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+                        <label class="form-check-label" for="validationFormCheck3">Me quiero contactar por otros motivos</label>
+                        <div class="invalid-feedback">Por favor indicar el motivo de contacto</div>
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" required aria-label="select example">
+                            <option value="">Que urgencia tiene tu consulta?</option>
+                            <option value="1">Poca</option>
+                            <option value="2">Media</option>
+                            <option value="3">Mucha</option>
+                        </select>
+                        <div class="invalid-feedback">Por favor seleccionar una opción</div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="file" class="form-control" aria-label="file example" required>
+                        <div class="invalid-feedback">Por favor completar este campo</div>
+                    </div>
+                        <div class="mb-3">
+                        <button class="btn btn-primary" type="submit" disabled style="background-color: #198754; border: #198754">Enviar</button>
+                    </div>
+                </form>
             </div>
-            <!--Grid row-->
-
+            <div class="col col-md-6 img-contact" style="padding: 1em;">
+                <img style="height: 100%;" src="../assets/img/contacto-imagen.jpeg" alt="">
+            </div>
         </div>
-        <!-- Footer Elements -->
+    </main>
+    <footer>
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+
+                <!-- youtube -->
+                <a class="btn text-white btn-floating m-1" target="_blank" href="https://www.youtube.com/channel/UCuvdCS5I-evC9r_qbrG64aA" role="button"><i
+                        class="fab fa-instagram"><img src="../assets/img/youtube.png" style="width: 3em;" alt=""></i></a>
+
+                <!-- instagram -->
+                <a class="btn text-white btn-floating m-1" target="_blank" href="https://www.instagram.com/pinchu.travel.food/" role="button"><i
+                        class="fab fa-linkedin-in"><img src="../assets/img/instagram.png" style="width: 3em;" alt=""></i></a>
+
+                <!-- tiktok -->
+                <a class="btn text-white btn-floating m-1" target="_blank" href="https://www.tiktok.com/@pinchu.travel.food" role="button"><i
+                        class="fab fa-github"><img src="../assets/img/tik-tok.png" style="width: 3em;" alt=""></i></a>
+
+                <!-- cafecito -->
+                <a class="btn text-white btn-floating m-1" target="_blank" href="https://cafecito.app/pinchutravel" role="button"><i
+                    class="fab fa-github"><img src="../assets/img/taza-de-cafe.png" style="width: 3em;" alt=""></i></a>
+
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="/"> David Martin</a>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a style="color: rgb(91, 83, 236);" target="_blank" href="https://www.linkedin.com/in/david-martin-824425184/">David Martin</a>
         </div>
         <!-- Copyright -->
-
-</footer>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
