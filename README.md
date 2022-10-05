@@ -1,5 +1,3 @@
-# pinchu-travel-food-martin-7
+Buenas Ema! Primero que nada y si de casualidad estás leyendo esto, te agradezco a tu disposición y responsabilidad para darnos las clases. Aguardo a tu respuesta y me disculpo por la calidad, podría haber hecho más, me voy a esforzar más en JS. Saludos!
 
-
-Modificaciones de SEO:
-https://docs.google.com/document/d/1PSq0eHH8xsU_LanIuupGyX19dRzHfuGiDDboXytpnJg/edit?usp=sharing
+LINK PAGES: https://dmartin1998.github.io/pinchu-travel-food-martin-7/
